@@ -1,0 +1,108 @@
+body{
+
+  box-sizing: border-box;
+  color:rgb(179, 0, 255);
+  font-family: cursive;
+  column-gap: 1rem;
+    line-height: 1.5;
+    padding-left: 3rem;
+   display: grid;
+   grid-template: 100%/50fr 50fr;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+
+   .banner 
+   {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 3rem;
+   }
+   .display
+   {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(239, 216, 6);
+    border-radius: .4rem;
+ 
+   }
+   label{
+       display:block ;
+   }
+   .forms-group{
+       padding-bottom: 1rem;
+   }
+   h1{
+    font-size: small;
+   }
+   #bio
+   {
+    height: 2rem;
+
+   } 
+   #bio, input{
+    resize: none;
+       width: 17rem;
+       padding: 10px;
+       border-radius: 10px;
+       border: 2px solid rgb(5, 124, 124);
+       transition: box-shadow 0.15s, border-color 1.15s;
+       background-color:gold;
+   }
+   label{
+       margin-top: 1rem;
+   }
+   button{
+       
+    width: 17rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin-left: .7rem;
+    margin-top: .5rem;
+    background-color:rgb(26, 36, 36);
+    color: white;
+
+  
+      
+   }
+   button:hover{
+       background-color: rgb(5, 30, 48);
+   }
+
+      
+   .drop-down-menu{
+          width: 17rem;
+          padding: 20px;
+          border-radius: 10px;
+          border: 1px solid lightgray;
+      }
+      .gender
+      {
+        display: flex;
+      }
+  .radio-box{
+    margin-right: 3rem;
+      width: auto;
+       padding: 0;   
+       border: auto;
+       box-shadow: none;
+      }
+   .check-B, .radio-b{
+       display: inline;
+      }
+     .phone-c{
+       width: 5rem;
+       padding: 20px;
+       border-radius: 10px;
+       border: 1px solid lightgray;
+     }
